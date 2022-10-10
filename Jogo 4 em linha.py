@@ -83,7 +83,7 @@ def main():
        escolha = int(input())
        while escolha<1 or escolha>tamanho[1]:
                print('Número inválido.')
-               print('Escolha em qual coluna você quer jogar (escolha de 1 a ',tamanho[1],'): ')
+               print('Escolha em qual coluna qu vc quer jogar (escolha de 1 a ',tamanho[1],'): ')
                escolha = int(input())
        jogo = jogada(jogo,escolha-1, jogador%2 +1)
        ganhou = verificar(jogo)
